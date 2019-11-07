@@ -19,7 +19,6 @@ public class UpdateCaseDefinitions {
     private Response response;
 
     private String nextAssignmentID;
-    private String ENDPOINT = "https://lab0625.lab.pega.com:443/prweb/api/v1";
 
     public UpdateCaseDefinitions(){
         RestAssured.baseURI = "https://lab0625.lab.pega.com:443/prweb/api/v1";
