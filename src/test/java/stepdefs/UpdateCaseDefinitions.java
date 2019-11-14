@@ -21,12 +21,12 @@ public class UpdateCaseDefinitions {
     private String nextAssignmentID;
 
     public UpdateCaseDefinitions(){
-        RestAssured.baseURI = "https://lab0625.lab.pega.com:443/prweb/api/v1";
+        RestAssured.baseURI = "https://lab0160.lab.pega.com:443/prweb/api/v1";
 
         request = RestAssured
                 .given()
                 .contentType(ContentType.JSON)
-                .auth().basic("demo@pega.com", "ecc2019!");
+                .auth().basic("demo@pega.com", "bbbbb2019!");
     }
 
     @Given("^A new update customer case type$")
@@ -57,7 +57,7 @@ public class UpdateCaseDefinitions {
     }
 
     @When("^I update the email address with \"([^\"]*)\"$")
-    public void i_update_the_email_address_with(String arg1) throws Exception {
+    public void i_update_the_email_address_with(String emailAddress) throws Exception {
         JSONObject jsonObj = new JSONObject()
                 .put("content", new JSONObject()
                         .put("CustomerInfo", new JSONObject()
@@ -66,6 +66,7 @@ public class UpdateCaseDefinitions {
                                 .put("LastName", "Elvar")
                                 .put("SecondName", "Calamonte")
                                 .put("PhoneNumber", "658 917 059")
+                                .put("EmailAddress", emailAddress)
                 ));
 
         response = request.body(jsonObj.toString())

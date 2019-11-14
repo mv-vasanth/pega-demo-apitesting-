@@ -5,7 +5,7 @@ Feature: Update customer case type
     Given A new update customer case type
     When I look for a customer with ID "51425410D"
     Then The customer profile will found
-    And I update the email address with "elvad@pega.com"
+    When I update the email address with "elvad@pega.com"
     Then The customer profile will be updated
 
   @regression
