@@ -21,12 +21,12 @@ public class UpdateCaseDefinitions {
     private String nextAssignmentID;
 
     public UpdateCaseDefinitions(){
-        RestAssured.baseURI = "https://lab0160.lab.pega.com:443/prweb/api/v1";
+        RestAssured.baseURI = "https://localhost/prweb/api/v1";
 
         request = RestAssured
                 .given()
                 .contentType(ContentType.JSON)
-                .auth().basic("demo@pega.com", "bbbbb2019!");
+                .auth().basic("user", "password");
     }
 
     @Given("^A new update customer case type$")
