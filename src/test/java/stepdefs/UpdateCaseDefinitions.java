@@ -26,7 +26,7 @@ public class UpdateCaseDefinitions {
         request = RestAssured
                 .given()
                 .contentType(ContentType.JSON)
-                .auth().basic("demo@pega.com", "devops2020!");
+                .auth().basic("demo@pega.com", "devops123!");
     }
 
     @Given("^A new update customer case type$")

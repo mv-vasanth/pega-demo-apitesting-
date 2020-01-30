@@ -1,0 +1,157 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Update existing customer profile",
+        "description": "",
+        "id": "update-customer-case-type;update-existing-customer-profile",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6307582100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "A new update customer case type",
+            "match": {
+              "location": "UpdateCaseDefinitions.a_new_update_customer_case_type()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2035008900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I look for a customer with ID \"51425410D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "51425410D",
+                  "offset": 31
+                }
+              ],
+              "location": "UpdateCaseDefinitions.i_look_for_a_customer_with_ID(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7179700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The customer profile will found",
+            "match": {
+              "location": "UpdateCaseDefinitions.the_customer_profile_will_found()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2088172100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I update the email address with \"elvad@pega.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "elvad@pega.com",
+                  "offset": 33
+                }
+              ],
+              "location": "UpdateCaseDefinitions.i_update_the_email_address_with(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11408900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The customer profile will be updated",
+            "match": {
+              "location": "UpdateCaseDefinitions.the_customer_profile_will_be_updated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Customer profile not found",
+        "description": "",
+        "id": "update-customer-case-type;customer-profile-not-found",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2195923500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "A new update customer case type",
+            "match": {
+              "location": "UpdateCaseDefinitions.a_new_update_customer_case_type()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1976939800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I look for a customer with ID \"789123654F\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "789123654F",
+                  "offset": 31
+                }
+              ],
+              "location": "UpdateCaseDefinitions.i_look_for_a_customer_with_ID(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109693900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The customer profile will not found",
+            "match": {
+              "location": "UpdateCaseDefinitions.the_customer_profile_will_not_found()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Update customer case type",
+    "description": "",
+    "id": "update-customer-case-type",
+    "keyword": "Feature",
+    "uri": "src/test/resources/demo.feature",
+    "tags": []
+  }
+]

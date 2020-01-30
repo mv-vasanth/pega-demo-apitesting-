@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="RunCucumberTest" time="13.759" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="RunCucumberTest" time="14.75" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Users\elvad\java\jdk-1.8.0\jre\bin"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Users\elvad\java\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\elvad\java\jdk-1.8.0\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Kubernetes\Minikube;C:\Program Files\curl\bin;C:\Users\elvad\java\apache-maven-3.6.1\bin;C:\Users\elvad\java\jdk-1.8.0\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\elvad\AppData\Local\Microsoft\WindowsApps;C:\Users\elvad\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\elvad\AppData\Local\Programs\Fiddler;C:\Users\elvad\AppData\Roaming\npm;C:\Users\elvad\java\apache-maven-3.6.1\bin;C:\Users\elvad\java\jdk-1.8.0\bin;C:\kube;C:\Program Files\curl\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\bin;;C:\Users\elvad\AppData\Local\Yarn\bin;."/>
+    <property name="java.library.path" value="C:\Users\elvad\java\jdk-1.8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Kubernetes\Minikube;C:\Program Files\curl\bin;C:\Users\elvad\java\apache-maven-3.6.1\bin;C:\Users\elvad\java\jdk-1.8.0\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\elvad\AppData\Local\Microsoft\WindowsApps;C:\Users\elvad\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\elvad\AppData\Local\Programs\Fiddler;C:\Users\elvad\AppData\Roaming\npm;C:\Users\elvad\java\apache-maven-3.6.1\bin;C:\Users\elvad\java\jdk-1.8.0\bin;C:\kube;C:\Program Files\curl\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\bin;;C:\Users\elvad\AppData\Local\Yarn\bin;C:\Users\elvad\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="maven.conf" value="C:\Users\elvad\java\apache-maven-3.6.1\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -52,7 +52,7 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_212-3-redhat"/>
-    <property name="java.ext.dirs" value="C:\Users\elvad\java\jdk-1.8.0\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="java.ext.dirs" value="C:\Users\elvad\java\jdk-1.8.0\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Users\elvad\java\jdk-1.8.0\jre\lib\resources.jar;C:\Users\elvad\java\jdk-1.8.0\jre\lib\rt.jar;C:\Users\elvad\java\jdk-1.8.0\jre\lib\sunrsasign.jar;C:\Users\elvad\java\jdk-1.8.0\jre\lib\jsse.jar;C:\Users\elvad\java\jdk-1.8.0\jre\lib\jce.jar;C:\Users\elvad\java\jdk-1.8.0\jre\lib\charsets.jar;C:\Users\elvad\java\jdk-1.8.0\jre\lib\jfr.jar;C:\Users\elvad\java\jdk-1.8.0\jre\classes"/>
     <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -65,6 +65,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Update customer case type" name="Update existing customer profile" time="10.742"/>
-  <testcase classname="Update customer case type" name="Customer profile not found" time="3.017"/>
+  <testcase classname="Update customer case type" name="Update existing customer profile" time="10.459"/>
+  <testcase classname="Update customer case type" name="Customer profile not found" time="4.291"/>
 </testsuite>
